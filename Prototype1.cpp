@@ -456,6 +456,6 @@ void lolQueue::createSoloMatch (int index){
 
     soloHashTable[index] = NULL;        //The hash table at the division's index is emptied
     soloMatchVector.push_back(newm);     //The newly made match is put into the matchVector
-
+    delete newm;
 
 }
